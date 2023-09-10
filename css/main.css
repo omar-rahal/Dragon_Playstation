@@ -25,8 +25,10 @@ nav button.navbar-toggler:focus {
 .home {
   height: calc(80vh - 66px);
 }
-.home .text h1 {
+.home .text h1,
+.home .text p {
   font-size: 40px;
+  color: #1d203e !important;
 }
 .home img {
   transform: rotate(-30deg);
@@ -127,7 +129,7 @@ nav .navbar-brand img {
 }
 @media (max-width: 776px) {
   .home img {
-    margin-top: -150px;
+    margin-top: -100px;
     width: 200px;
   }
   .home .text h1 {
