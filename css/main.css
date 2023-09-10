@@ -75,6 +75,9 @@ nav .navbar-brand img {
   padding: 50px 0;
 }
 
+.about .parent img {
+  height: 400px;
+}
 .featerd.boxes .box {
   background-size: cover;
   background-position: center center;
@@ -142,7 +145,6 @@ nav .navbar-brand img {
     left: 0;
   }
 }
-
 .contact {
   padding: 50px 0;
   background-color: #1d203e;
